@@ -1,4 +1,4 @@
-baseURL: "https:/towdev.netlify.app"
+baseURL: "https://towdev.netlify.app"
 title: TowDev
 paginate: 5
 theme: PaperMod
