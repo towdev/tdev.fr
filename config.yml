@@ -17,16 +17,16 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: TowDev
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Théo
+  description: "Discover Notion Templates, Tips for students & IT, random projects, & more ! :)"
+  keywords: [Blog, Portfolio, TowDev, Notion, Template, Notion Template, Student, Engineering, Dev, Coding, Learning, Python]
+  author: 
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: light # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
@@ -62,14 +62,18 @@ params:
     title: "👋 Hi ! Welcome to TowDev's Website ! "
     subtitle: "I'm Théo, a 19yo engineering student making content for **developpers & students**."
     imageUrl: "images/pp-modified.png"
-    imageWidth: 120
-    imageHeight: 120
+    imageWidth: 200
+    imageHeight: 200
     imageTitle: pp
     buttons:
+      - name: 💡 Tips
+        url: tips
+
       - name: 🚀 Projects
         url: projects
+      
       - name: ⚡️ Notion Templates
-        url: notion-templates
+        url: notion_templates
 
   socialIcons:
     - name: twitter
@@ -88,9 +92,9 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   # for search
   # https://fusejs.io/api/options.html
@@ -104,14 +108,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: tips
+      name: 💡 Tips
+      url: /tips/
+      weight: 1
     - identifier: projects
       name: 🚀 Projects
       url: /projects/
-      weight: 10
+      weight: 2
     - identifier: notion
-      name: ⚡️Notion Templates
-      url: /notion-templates/
-      weight: 20
+      name: ⚡️ Notion Templates
+      url: /notion_templates/
+      weight: 3
 
 
 pygmentsUseClasses: true

@@ -1,15 +1,15 @@
 ---
-title: "School template"
+title: "🎓 School template"
 date: 
 slug: school-template
 category: notion-templates 
 summary:
 description: 
 cover:
-  image:
+  image: "https://i.imgur.com/uXQioWP.jpg"
   alt:
   caption: 
-  relative: true
+  relative: false
 showtoc: true
 draft: false
 ---
