@@ -6,7 +6,7 @@ category: notion-templates
 summary:
 description: 
 cover:
-  image: "https://i.imgur.com/uXQioWP.jpg"
+  image: "https://i.imgur.com/AHK7fkC.jpg"
   alt:
   caption: 
   relative: false
