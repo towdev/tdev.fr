@@ -68,7 +68,7 @@ params:
     buttons: 
 
       - name: ⚡️ Notion Templates
-        url: notion_templates
+        url: notion
 
       - name: 💡 Tips
         url: tips
@@ -115,7 +115,7 @@ menu:
 
     - identifier: notion
       name: ⚡️ Notion Templates
-      url: /notion_templates/
+      url: /notion/
       weight: 1
 
     - identifier: tips

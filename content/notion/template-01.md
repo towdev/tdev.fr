@@ -2,7 +2,7 @@
 title: "🎓 School template"
 date: 
 slug: school-template
-category: notion-templates 
+category: notion 
 summary:
 description: 
 cover:
